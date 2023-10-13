@@ -1,0 +1,98 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'play';
+}
+img {
+    position: relative;
+    width: 60vh;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+form{
+    padding: 0px;
+    margin: 0px;
+}
+.top{
+    background-color: #f1f1f1;
+    padding-top: 7rem;
+    margin: 0%;
+    padding-left: 3rem;
+    padding-right: 20rem;
+    font-size: 1rem;
+    text-align: center;
+
+}
+.middle{
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 20rem;
+    padding-bottom: 3rem;
+    font-size: 1.2rem;
+    height: 10%;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.sidebar{
+    position: absolute;
+}
+@font-face {
+    font-family: play;
+    src: url(Play-Regular.ttf);
+}
+@font-face {
+    font-family: play;
+    font-weight: bold;
+    src: url(Play-Bold.ttf);
+}
+.overlay{
+    text-align: center;
+    color: white;
+    background-color: #00000075;
+    width: 60vh;
+    font-family: 'play';
+    overflow: hidden;
+    margin-top: 25vh;
+    font-size: 3rem;
+
+}
+input{
+    display: block;
+    max-width: 200px;
+    min-width: 100px;
+    height: 1.2rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    flex-basis: 50%;
+    width: 25rem;
+    border: 1px solid #1111111f;
+    border-radius: 5px;
+}
+h1{
+    display: block;
+    width: 100%;
+}
+.fields{
+    width: 40%;
+    text-align: left;
+    margin-right: 3rem;
+}
+.bottom {
+    padding-left: 4rem;
+    background-color: #f1f1f1;
+    height: 100vh;
+    padding-top: 3rem;
+}
+button {
+    background-color: #596D48;
+    color: white;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <main>
+        <img class="trees" src="halie-west-bTzpau9mKT4-unsplash.jpg" alt="trees">
+        <div class="sidebar">
+            <h1 class="overlay">Project</h1>
+        </div>
+        <form action="">
+            <div class="content">
+                <section class="top">
+                    <p>
+                        This is not a real online service. You know you need this in your life
+                        to help you realize your dreams!
+                        sign up now to get started!
+                    </p>
+                    <p>
+                        You know you want to.
+                    </p>
+                </section>
+                <section class="middle">
+                    <h1>Lets do this!</h1>
+                    <div class="fields">
+                        <label for="fname">FIRST NAME </label>
+                        <input type="text" id="fname" name="first-name" required>
+                    </div>
+                    <div class="fields">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id='lname' name="last-name" required>
+                    </div>
+                    <div class="fields">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </div>              <div class="fields">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phone" id="phone" >
+                    </div>            <div class="fields">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="fields">
+                        <label for="confirm">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm" id="confirm">
+                    </div>
+                    <div class="fields">
+                        <span id="message" style="color: red;"></span>
+                    </div>
+                </section>
+                <section class="bottom">
+                    <button type="submit" onclick="confirmPswd()">
+                        Create Account
+                    </button>
+                </section>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
